@@ -19,7 +19,7 @@ body {
 
 /* Navigation */
 
-#nav-container {
+#navContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,15 +31,54 @@ body {
     right: 0;
     background-color: #eee;
     transition: 0.5s;
+    gap: 1rem;
+    float: right;
 }
  .close-menu {
     align-self: flex-end;
     padding: 1rem;
-    
  }
 
+ #nav-container a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+ }
+ 
+ .dropdown {
+    position: relative;
+    display: inline-block;
+ }
 
-.features-content , .company-content, .login-register {
+.dropdown-btn {
+    padding: 0.8rem 2rem;
+}
+
+.features-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.show-dropdown {display: block;}
+
+
+
+
+ .login-register {
+    text-align: center;
+    margin-top: 2rem;}
+
+.login {padding: 0.8rem 4rem;}
+
+.register {
+    padding: 0.8rem 4rem;
+    margin-top: 0.8rem;
+    border: solid #666 2px;
+    border-radius: 15px;}
+
+.company-content, .login-register {
     display: flex;
     flex-direction: column;
 }

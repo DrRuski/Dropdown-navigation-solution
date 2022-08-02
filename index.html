@@ -17,40 +17,43 @@
   <header>
 
   <div class="logo-nav-container">
-
     <a href="#"><img src="assets/images/logo.svg" alt=""></a>
-
     <a onclick="openNav()" href="#"><img src="assets/images/icon-menu.svg" alt=""></a>
   </div>
 
-    <nav id="nav-container">
+
+
+
+    <nav id="navContainer">
+
       <a class="close-menu" href="#"><img onclick="closeNav()" src="assets/images/icon-close-menu.svg" alt=""></a>
-        <div>
-        <button>Features <img src="assets/images/icon-arrow-down.svg" alt=""></button>
-        <div class="features-content">
+
+      <div class="dropdown">
+        <a onclick="navFunction()" class="dropdown-btn" href="#">Features <img src="assets/images/icon-arrow-down.svg" alt=""></a>
+        <div id="navDropdown" class="features-content">
           <a href="#"><img src="assets/images/icon-todo.svg" alt=""> Todo List</a>
           <a href="#"><img src="assets/images/icon-calendar.svg" alt=""> Calendar</a>
           <a href="#"><img src="assets/images/icon-reminders.svg" alt=""> Reminders</a>
           <a href="#"><img src="assets/images/icon-planning.svg" alt=""> Planning</a>
         </div>
-        </div>
+      </div>
 
-        <div>
-          <button>Company <img src="assets/images/icon-arrow-down.svg" alt=""></button>
-          <div class="company-content">
-            <a href="">History</a>
-            <a href="">Our Team</a>
-            <a href="">Blog</a>
-          </div>
+      <div>
+        <a href="#">Company <img src="assets/images/icon-arrow-down.svg" alt=""></a>
+        <div class="company-content">
+          <a href="">History</a>
+          <a href="">Our Team</a>
+          <a href="">Blog</a>
         </div>
+      </div>
 
-        <a href="#">Careers</a>
-        <a href="#">About</a>
+      <a href="#">Careers</a>
+      <a href="#">About</a>
 
 
       <div class="login-register">
-        <a href="">Login</a>
-        <a href="">Register</a>
+        <a class="login" href="#">Login</a>
+        <a class="register" href="#">Register</a>
       </div>
 
       
