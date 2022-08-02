@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: #fafafa;
+}
+.hero-image-mobile {
+    width: 100%;
+}
