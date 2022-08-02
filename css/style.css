@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    font-family: "Epilogue", sans-serif;
 }
 
 body {
@@ -9,3 +10,89 @@ body {
 .hero-image-mobile {
     width: 100%;
 }
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+/* Navigation */
+
+#nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #eee;
+    transition: 0.5s;
+}
+ .close-menu {
+    align-self: flex-end;
+    padding: 1rem;
+    
+ }
+
+
+.features-content , .company-content, .login-register {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main-Content */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    gap: 1.2rem;
+}
+
+h1 {font-size: 2rem;}
+
+p { font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center;
+    opacity: 0.6;}
+
+.learn-more-btn {
+    border-radius: 0.9rem;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    background-color: #141414;
+    color: #fafafa;
+}
+
+
+
+
+/* Sponsors */
+
+.sponsors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.sponsors img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
