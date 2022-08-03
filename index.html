@@ -24,13 +24,16 @@
 
 
 
-    <nav id="navContainer">
+    <nav id="navContainer" class="sideNav">
 
-      <a class="close-menu" href="#"><img onclick="closeNav()" src="assets/images/icon-close-menu.svg" alt=""></a>
+      <a id="close-menu" href="#"><img onclick="closeNav()" src="assets/images/icon-close-menu.svg" alt=""></a>
 
-      <div class="dropdown">
-        <a onclick="navFunction()" class="dropdown-btn" href="#">Features <img src="assets/images/icon-arrow-down.svg" alt=""></a>
-        <div id="navDropdown" class="features-content">
+
+
+
+      <div>
+        <button class="dropdown-btn">Features <img src="assets/images/icon-arrow-down.svg" alt=""></button>
+        <div class="features-container">
           <a href="#"><img src="assets/images/icon-todo.svg" alt=""> Todo List</a>
           <a href="#"><img src="assets/images/icon-calendar.svg" alt=""> Calendar</a>
           <a href="#"><img src="assets/images/icon-reminders.svg" alt=""> Reminders</a>
@@ -38,22 +41,23 @@
         </div>
       </div>
 
-      <div class="dropdown">
-        <a class="dropdown-btn" href="#">Company <img src="assets/images/icon-arrow-down.svg" alt=""></a>
-        <div class="company-content">
-          <a href="">History</a>
-          <a href="">Our Team</a>
-          <a href="">Blog</a>
+      <div>
+        <button class="dropdown-btn">Company <img src="assets/images/icon-arrow-down.svg" alt=""></button>
+        <div class="company-container">
+          <a href="#">History</a>
+          <a href="#">Our Team</a>
+          <a href="#">Blog</a>
         </div>
       </div>
 
-      <a href="#">Careers</a>
-      <a href="#">About</a>
+      <div>
+        <a href="#">Careers</a>
+        <a href="#">About</a>
+      </div>
 
-
-      <div class="login-register">
-        <a class="login" href="#">Login</a>
-        <a class="register" href="#">Register</a>
+      <div id ="login-register">
+        <a id ="login" href="#">Login</a>
+        <a id ="register" href="#">Register</a>
       </div>
 
       

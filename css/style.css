@@ -11,13 +11,15 @@ body {
     width: 100%;
 }
 
-.logo-nav-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-}
 
 /* Navigation */
+
+.logo-nav-container {display: flex; justify-content: space-between;}
+
+.logo-nav-container img, .close-menu img {padding: 1rem;}
+
+
+
 
 #navContainer {
     display: flex;
@@ -32,59 +34,41 @@ body {
     overflow-x: hidden;
     background-color: #eee;
     transition: 0.5s;
-    gap: 1rem;
     float: right;
 }
 
- .close-menu {
-    align-self: flex-end;
-    padding: 1rem;
-    
- }
-
- #nav-container a {
+ .sideNav a, .dropdown-btn {
+    padding: 1rem 2rem;
     text-decoration: none;
+    font-size: 1rem;
     color: #333;
     display: block;
- }
- 
- .dropdown {
-    position: relative;
-    display: inline-block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
  }
 
-.dropdown-btn {
-    padding: 0.8rem 2rem;
-}
+ #close-menu {text-align: right; margin-right: 2.5rem;}
 
-.features-content {
+
+.features-container, .company-container {
     display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 1;
 }
 
-.show-dropdown {display: block;}
 
+#login-register {margin-top: 2rem;}
+#login-register a {text-align: center;}
+#login {width: auto;}
 
-
-
- .login-register {
-    text-align: center;
-    margin-top: 2rem;}
-
-.login {padding: 0.8rem 4rem;}
-
-.register {
-    padding: 0.8rem 4rem;
-    margin-top: 0.8rem;
-    border: solid #666 2px;
+#register {
+    background-color: #333;
+    color: #eee;
+    width: auto;
     border-radius: 15px;}
 
-.company-content, .login-register {
-    display: flex;
-    flex-direction: column;
-}
 
 /* Main-Content */
 
