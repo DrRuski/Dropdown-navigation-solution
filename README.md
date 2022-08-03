@@ -1,2 +1,2 @@
-# Simple dropdown navigation challenge solution
+#Dropdown navigation solution
  Frontendmentor.io
