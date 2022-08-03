@@ -29,14 +29,17 @@ body {
     z-index: 1;
     top: 0;
     right: 0;
+    overflow-x: hidden;
     background-color: #eee;
     transition: 0.5s;
     gap: 1rem;
     float: right;
 }
+
  .close-menu {
     align-self: flex-end;
     padding: 1rem;
+    
  }
 
  #nav-container a {
