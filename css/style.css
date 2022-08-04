@@ -7,10 +7,12 @@ body {
     height: 100vh;
     background-color: #fafafa;
 }
-.hero-image-mobile {
-    width: 100%;
-}
 
+
+@media only screen and (max-width: 500px)  {
+
+.hero-image-mobile {width: 100%;}
+.hero-image-desktop {display: none;}
 
 /* Navigation */
 
@@ -71,7 +73,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .text-container {
@@ -113,4 +115,99 @@ p { font-size: 1rem;
     width: 100%;
 }
 
+}
 
+
+@media only screen and (min-width: 501px) {
+
+.hero-image-mobile {display: none;}
+.hero-image-desktop {max-height:100%;}
+.desktop-hide {display: none;}
+
+header {
+    display: flex;
+    gap: 5rem;
+    padding: 2.5rem;
+}
+
+nav {
+    display: flex;
+    gap: 4rem;
+}
+
+
+
+.features-container, .company-container {display: none;}
+.features-container img, .company-container img {padding-right: 0.6rem;}
+
+
+#login-register {display: flex; gap: 2rem;}
+#register {
+    background-color: #333;
+    color: #eee;
+    padding: 1rem 1.3rem;
+    border-radius: 15px;}
+
+
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px;
+    justify-items: center;
+   
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    max-width: 500px;
+    gap: 3rem;
+    align-self: center;
+    
+    
+    
+}
+
+.sponsors {
+    display: flex;
+    gap: 3rem;
+    justify-self: center;
+    align-self: flex-end;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.sponsors img {
+    object-fit: cover;
+    height: 100%;
+}
+
+
+h1 {font-size: 4rem;}
+p {font-size: 1.2rem; line-height: 2rem; text-align: left; opacity: 0.6;}
+
+.learn-more-btn {
+    text-align: center;
+    width: 8rem;
+    border-radius: 0.9rem;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    background-color: #141414;
+    color: #fafafa;
+}
+
+
+
+
+
+
+
+
+
+
+}
