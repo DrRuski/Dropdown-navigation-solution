@@ -7,11 +7,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  
-  
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
-
 </head>
+
+
+
 <body>
 
   <header>
@@ -21,15 +21,9 @@
     <a class="desktop-hide" onclick="openNav()" href="#"><img src="assets/images/icon-menu.svg" alt=""></a>
   </div>
 
-
-
-
     <nav id="navContainer" class="sideNav">
 
       <a class="desktop-hide" id="close-menu" href="#"><img onclick="closeNav()" src="assets/images/icon-close-menu.svg" alt=""></a>
-
-
-
 
       <div>
         <button class="dropdown-btn">Features <img src="assets/images/icon-arrow-down.svg" alt=""></button>
@@ -50,12 +44,12 @@
         </div>
       </div>
       
-      <div>
+      <div class="careers">
         <a href="#">Careers</a>
         <a href="#">About</a>
       </div>
 
-      <div id ="login-register">
+      <div id ="login-register" class="log-reg">
         <a id ="login" href="#">Login</a>
         <a id ="register" href="#">Register</a>
       </div>
@@ -65,25 +59,28 @@
   </header>
 
 
+
+
   <main>
 
     <img class="hero-image-mobile" src="assets/images/image-hero-mobile.png" alt="">
+    
+    <div class="text-container">
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+      create team rituals, and watch productivity soar.</p>
+      <a class="learn-more-btn" href="#">Learn more</a>
+
+      <div class="sponsors">
+        <img src="assets/images/client-databiz.svg" alt="">
+        <img src="assets/images/client-audiophile.svg" alt="">
+        <img src="assets/images/client-meet.svg" alt="">
+        <img src="assets/images/client-maker.svg" alt="">
+      </div>
+    </div>
+
     <img class="hero-image-desktop" src="assets/images/image-hero-desktop.png" alt="">
-<div class="text-container">
-  <h1>Make remote work</h1>
 
-  <p>Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.</p>
-
-  <a class="learn-more-btn" href="#">Learn more</a>
-</div>
-  
-  <div class="sponsors">
-    <img src="assets/images/client-databiz.svg" alt="">
-    <img src="assets/images/client-audiophile.svg" alt="">
-    <img src="assets/images/client-meet.svg" alt="">
-    <img src="assets/images/client-maker.svg" alt="">
-  </div>
 
 </main>
 
