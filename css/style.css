@@ -1,10 +1,11 @@
-* {
-    margin: 0px;
+*, *:before, *:after  {
+    box-sizing: inherit;
     font-family: "Epilogue", sans-serif;
 }
 
 body {
-    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
     background-color: #fafafa;
 }
 
@@ -121,7 +122,7 @@ p { font-size: 1rem;
 @media only screen and (min-width: 501px) {
 
 .hero-image-mobile {display: none;}
-.hero-image-desktop {max-width: 500px; object-fit: contain; box-sizing: border-box; }
+.hero-image-desktop {width:100%; object-fit: contain;}
 #close-menu, .desktop-hide {display: none;}
 
 
@@ -130,8 +131,7 @@ p { font-size: 1rem;
 
 header {display: inline-flex; padding: 2.5rem 4rem;align-items: center; gap: 2rem;}
 
-nav {display: inline-flex; align-items: center;
-}
+nav {display: inline-flex; align-items: center;}
 
 .sideNav a, .dropdown-btn {
     padding: 1rem 2rem;
@@ -180,13 +180,11 @@ nav {display: inline-flex; align-items: center;
 /* Main Content */
 
 main {
-    justify-content: center;
-    align-items: center;
     display: flex;
-    box-sizing: border-box;
-    max-width: 100%;
-    column-gap: 10rem;
-    padding: 3rem;}
+    
+    
+    
+}
 
 .text-container {
     display: flex;
