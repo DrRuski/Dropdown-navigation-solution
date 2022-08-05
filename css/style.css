@@ -120,50 +120,61 @@ p { font-size: 1rem;
 
 @media only screen and (min-width: 501px) {
 
-
-
 .hero-image-mobile {display: none;}
 .hero-image-desktop {max-width: 500px; object-fit: contain; box-sizing: border-box; }
 #close-menu, .desktop-hide {display: none;}
 
 
+
 /* Navigation */
 
+header {display: inline-flex; padding: 2.5rem 4rem;align-items: center; gap: 2rem;}
 
-header {display: flex; padding: 2.5rem 4rem; gap: 0rem 12.5rem; align-items: center;}
-
-nav {display: flex; max-width: 100%; gap: 1rem;}
+nav {display: inline-flex;
+}
 
 .sideNav a, .dropdown-btn {
     padding: 1rem 2rem;
     text-decoration: none;
     font-size: 1rem;
-    color: #333;
+    color: #777;
     display: flex;
     border: none;
     background: none;
-    width: auto;
-    text-align: left;
+    max-width: 100%;
+    text-align: center;
     cursor: pointer;
-    outline: none;
- }
+    outline: none;}
+
 .features-container, .company-container {
     position: fixed;
     background-color: #eee;
     border-radius: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
  .dropdown-btn img, .features-container img {object-fit: contain; padding: 0px 10px;}
 
 .careers {
-    display: flex;
-}
-
-.log-reg {
-    display: flex;
+    display: flex;}
     
+.log-reg {
+    display: flex;}
+
+#register {
+    border: solid #777 2px;
+    width: auto;
+    border-radius: 15px;}
+
+#register:hover {
+    background-color: #333;
+    color: #eee;
+    border: solid transparent 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.test {
+    display: flex;
+    gap: 50rem;}
 
 /* Main Content */
 
@@ -174,9 +185,7 @@ main {
     box-sizing: border-box;
     max-width: 100%;
     column-gap: 10rem;
-    padding: 3rem;
-    
-}
+    padding: 3rem;}
 
 .text-container {
     display: flex;
@@ -184,8 +193,7 @@ main {
     gap: 3rem;
     align-self: center;
     box-sizing: border-box;
-    max-width: 500px;
-}
+    max-width: 500px;}
 
 .learn-more-btn {
     text-align: center;
@@ -193,23 +201,27 @@ main {
     border-radius: 0.9rem;
     text-decoration: none;
     padding: 1rem 1.5rem;
-    background-color: #141414;
-    color: #fafafa;
+    background-color: #444;
+    color: #eee;}
+
+.learn-more-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #eee;
+    color: #333;
+    border: solid #999 1px;
 }
 
 h1 {font-size: 4.7rem; color: #444; }
+
 p {font-size: 1.2rem; line-height: 2rem; color: #777; }
 
 .sponsors {
     display: flex;
     gap: 3rem;
-    align-self: flex-end;
-}
+    align-self: flex-end;}
 
 .sponsors img {
     object-fit: contain;
-    width: 100%;
-}
-
+    width: 100%;}
 
 }
