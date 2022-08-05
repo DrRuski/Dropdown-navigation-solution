@@ -130,7 +130,7 @@ p { font-size: 1rem;
 
 header {display: inline-flex; padding: 2.5rem 4rem;align-items: center; gap: 2rem;}
 
-nav {display: inline-flex;
+nav {display: inline-flex; align-items: center;
 }
 
 .sideNav a, .dropdown-btn {
@@ -173,6 +173,7 @@ nav {display: inline-flex;
 }
 
 .test {
+    align-items: center;
     display: flex;
     gap: 50rem;}
 
