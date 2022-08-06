@@ -126,11 +126,15 @@ h1 {font-size: 2.5rem; margin: 0;}
 
 /* Navigation */
 
-header {display:flex; padding: 2.5rem 4rem;align-items: center; gap: 2rem;}
+header {display:flex; padding: 2.5rem 4rem;align-items: center; gap: 5rem;}
 
 .sideNav {
-    display: flex;
     align-items: center;
+    display: flex;
+}
+.sideNav a, .dropdown-btn {
+    text-decoration: none;
+    padding: 1rem;
 }
 
 
@@ -166,9 +170,11 @@ main {
 }
 
 .learn-more-btn {
+    text-align: center;
+    width: 150px;
     text-decoration: none;
     color: #eee;
-    border-radius: 10px;
+    border-radius: 1rem;
     padding: 1rem;
     background-color: #333;
 
