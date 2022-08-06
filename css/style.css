@@ -132,11 +132,19 @@ header {display:flex; padding: 2.5rem 4rem;align-items: center; gap: 5rem;}
     align-items: center;
     display: flex;
 }
-.sideNav a, .dropdown-btn {
-    text-decoration: none;
-    padding: 1rem;
-}
 
+
+
+.sideNav a, .dropdown-btn {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+ }
 
 
 /* Main Content */
