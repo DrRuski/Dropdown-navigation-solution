@@ -3,7 +3,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/simple-dropdown-navigation-solution-536c6Gj7s1)
 - Live Site URL: [Netlify](https://polite-nougat-177d82.netlify.app)
 
 ## My process
