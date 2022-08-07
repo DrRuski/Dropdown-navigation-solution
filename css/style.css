@@ -54,6 +54,8 @@ button {font-family: "Epilogue", sans-serif;}
     cursor: pointer;
     outline: none;}
 
+.dropdown-btn:focus{color: #000;}
+
  #close-menu {align-self: flex-end;}
 
 .features-container, .company-container {display: none;}
@@ -128,6 +130,8 @@ p {font-size: 1rem;}
 /* Navigation */
 
 header {display:flex; padding: 2rem 4rem; align-items:center; gap:5rem;}
+
+.dropdown-btn:focus{color: #000;}
 
 .sideNav {display: flex; align-items: center; gap: 2rem;}
 
