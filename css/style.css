@@ -99,7 +99,7 @@ p {font-size: 1rem;}
     border-radius: 1rem;
     padding: 0.8rem;
     background-color: #333;
-    border: solid #333 2px;}
+    border: solid #000 2px;}
 
     
 
@@ -162,7 +162,7 @@ header {display:flex; padding: 2rem 4rem; align-items:center; gap:5rem;}
     border-radius: 1rem;
     padding: 1rem 2rem;
     background-color: #fff;
-    border: solid #666 2px;}
+    border: solid #000 2px;}
 
 
 
@@ -198,8 +198,8 @@ main {
     color: #eee;
     border-radius: 1rem;
     padding: 1rem;
-    background-color: #333;
-    border: solid #333 2px;}
+    background-color: #000;
+    border: solid #000 2px;}
 
 .learn-more-btn:hover {
     background-color: #fff;
